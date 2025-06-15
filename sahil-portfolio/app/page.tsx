@@ -45,7 +45,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
       <MouseFollower />
       <ScrollProgress />
-      <FloatingNav brandName="SahilN" />
+      <FloatingNav  />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
