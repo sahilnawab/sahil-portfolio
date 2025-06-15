@@ -3,7 +3,7 @@ import { Resend } from "resend"
 import { EmailTemplate } from "@/lib/email-template"
 import { env } from "process"
 
-const apiKey = process.env.REACT_APP_API_KEY_RESEND;
+const apiKey = process.env.RESEND_API_KEY;
 const resend = new Resend(apiKey)
 
 
