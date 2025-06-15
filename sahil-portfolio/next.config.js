@@ -8,23 +8,14 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
 
-  // Additional optimizations
+  // Simplified configuration to avoid circular dependencies
   experimental: {
-    optimizePackageImports: ["framer-motion", "lucide-react"],
+    serverComponentsExternalPackages: ["resend"],
   },
 
   // Image optimization
   images: {
-    domains: ["placeholder.svg"],
-    unoptimized: true, // For static export if needed
-  },
-
-  // Webpack configuration to ignore specific warnings
-  webpack: (config, { dev, isServer }) => {
-    // Ignore specific warnings
-    config.ignoreWarnings = [/Critical dependency/, /the request of a dependency is an expression/, /Can't resolve/]
-
-    return config
+    unoptimized: true,
   },
 }
 
