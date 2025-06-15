@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { ClientWrapper } from "@/components/client-wrapper"
+import { ClientWrapper } from "@/components/Client-wrapper"
 
 export function MouseFollower() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })

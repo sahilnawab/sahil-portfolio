@@ -7,8 +7,10 @@ import { Menu, X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { useMobile } from "@/hooks/use-mobile"
-import { ClientWrapper } from "./client-wrapper"
+
 import { ResumeViewer } from "./resume-viewer"
+import { ClientWrapper } from "./Client-wrapper"
+
 
 
 export function FloatingNav() {
