@@ -7,7 +7,7 @@ const experiences = [
   {
     title: "Freelance Full Stack Developer",
     company: "Global Clients",
-    period: "2024 - Present",
+    period: "2023 - Present",
     description:
       "Working with global clients to build complete web applications, handling both frontend and backend development, and deploying to cloud platforms like Azure.",
   },

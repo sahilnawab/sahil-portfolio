@@ -153,7 +153,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/MY-Created-Image.png"
+                  src="/sahil_nawab.png"
                   className="w-[700px] h-[900px] object-cover"
                   alt="Shine Kyaw Kyaw Aung"
                 />
@@ -171,7 +171,7 @@ export default function Portfolio() {
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300"> I'm a dedicated Full Stack Developer with hands-on experience in building web applications for clients across different industries. I specialize in ASP.NET Core, React.js, and cloud-based deployment, delivering scalable and production-ready solutions. 
                   </p>
-                   <p className="text-lg text-zinc-300 mt-4"> Since 2024, I've been working as a freelance Full Stack Developer, collaborating with global clients to turn ideas into full-fledged applications. From designing robust APIs to crafting responsive UIs, I handle the entire development lifecycle. 
+                   <p className="text-lg text-zinc-300 mt-4"> Since 2023, I've been working as a freelance Full Stack Developer, collaborating with global clients to turn ideas into full-fledged applications. From designing robust APIs to crafting responsive UIs, I handle the entire development lifecycle. 
                     </p>
                      <p className="text-lg text-zinc-300 mt-4"> I'm passionate about solving real-world problems through code, following clean architecture principles, and staying updated with the latest trends in the .NET ,Java and React ecosystems. 
 
@@ -266,6 +266,37 @@ export default function Portfolio() {
               demoUrl="http://wehr.co.in/"
               repoUrl="https://github.com/sahilnawab"
             />
+
+ <ProjectCard
+              title="NSS Web Solutions"
+              description="NSS Web Solutions, a comprehensive platform for managing web development projects and landing page for clients."
+              tags={["Next.js", "Landing Page", "UI/UX",]}
+              image="/nss/nss-main.png"
+              screenshots={["/nss/nss-main.png",
+                "/nss/aboutus.png",
+                "/nss/contact.png",
+                "nss/techstack.png"
+              ]}
+              demoUrl="https://nss-web-solutions.vercel.app/"
+              repoUrl="https://github.com/sahilnawab"
+            />
+
+
+
+ <ProjectCard
+              title="Smash Bros Burger Shop"
+              description="Developed Smash Bros Burger App, a modern web application for a burger shop featuring a landing page, interactive menu, and seamless food ordering via WhatsApp and online forms."
+              tags={["Next.js", "Whatsapp Messaging", "UI/UX",]}
+              image="/smashbros/Landingpage.png"
+              screenshots={["/smashbros/",
+                "/smashbros/order.png",
+                "/smashbros/ourstory.png",
+              ]}
+              demoUrl="http://wehr.co.in/"
+              repoUrl="https://github.com/sahilnawab"
+            />
+
+
             <ProjectCard
               title="Smart Interview Practice Platform"
               description="A full-stack platform that helps users practice coding and behavioral interview questions with AI-powered feedback."
