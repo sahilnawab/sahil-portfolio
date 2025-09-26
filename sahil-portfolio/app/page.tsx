@@ -288,7 +288,7 @@ export default function Portfolio() {
               description="Developed Smash Bros Burger App, a modern web application for a burger shop featuring a landing page, interactive menu, and seamless food ordering via WhatsApp and online forms."
               tags={["Next.js", "Whatsapp Messaging", "UI/UX",]}
               image="/smashbros/Landingpage.png"
-              screenshots={["/smashbros/",
+              screenshots={["/smashbros/Landingpage.png",
                 "/smashbros/order.png",
                 "/smashbros/ourstory.png",
               ]}
