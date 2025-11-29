@@ -5,18 +5,18 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Freelance Full Stack Developer",
-    company: "Global Clients",
-    period: "2023 - Present",
+    title: "Full Stack Developer (Contract)",
+    company: "Geo Design And Research Pvt Ltd",
+    period: " Sep-2023 - Present",
     description:
-      "Working with global clients to build complete web applications, handling both frontend and backend development, and deploying to cloud platforms like Azure.",
+      "Build complete web application such as Work management System and Project Management System, handling both frontend and backend development, and deploying to cloud platforms like Azure.",
   },
   {
     title: "Production Supervisor",
     company: "Alembic Pharmaceuticals Ltd",
-    period: "2017 - 2024",
+    period: "Nov-2022 - Sep-2023",
     description:
-      "Led production teams and managed manufacturing processes. This role helped me build discipline, team management skills, and strong attention to detail that I now apply to software development.",
+      "Developed Learning Management System using .net core, enhancing employee training efficiency. Managed production schedules and ensured compliance with quality standards in a GMP environment.",
   },
 ]
 
@@ -25,11 +25,10 @@ export function Timeline() {
 
   return (
     <div
-      className={`space-y-12 relative ${
-        !isMobile
-          ? "before:absolute before:inset-0 before:left-1/2 before:ml-0 before:-translate-x-px before:border-l-2 before:border-zinc-700 before:h-full before:z-0"
-          : ""
-      }`}
+      className={`space-y-12 relative ${!isMobile
+        ? "before:absolute before:inset-0 before:left-1/2 before:ml-0 before:-translate-x-px before:border-l-2 before:border-zinc-700 before:h-full before:z-0"
+        : ""
+        }`}
     >
       {experiences.map((experience, index) => (
         <div

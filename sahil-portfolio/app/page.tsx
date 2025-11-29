@@ -45,7 +45,7 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
       <MouseFollower />
       <ScrollProgress />
-      <FloatingNav  />
+      <FloatingNav />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -71,7 +71,7 @@ export default function Portfolio() {
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
               I build complete web applications with expertise in both backend and frontend technologies, delivering
-              end-to-end solutions for global clients.
+              end-to-end solutions for Organizations.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0"
@@ -151,6 +151,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
             <div className="relative">
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
+              <div className="absolute -top-12 left-1/2 -translate-x-1/2 z-20">
+                <div className="bg-zinc-800/90 backdrop-blur-sm border border-zinc-700 rounded-full px-4 py-2 shadow-lg">
+                  <span className="text-sm font-medium text-zinc-300">Generated with AI 😊</span>
+                </div>
+              </div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
                   src="/sahil_nawab.png"
@@ -169,13 +174,13 @@ export default function Portfolio() {
 
             <div className="space-y-6">
               <GlassmorphicCard>
-                <p className="text-lg text-zinc-300"> I'm a dedicated Full Stack Developer with hands-on experience in building web applications for clients across different industries. I specialize in ASP.NET Core, React.js, and cloud-based deployment, delivering scalable and production-ready solutions. 
-                  </p>
-                   <p className="text-lg text-zinc-300 mt-4"> Since 2023, I've been working as a freelance Full Stack Developer, collaborating with global clients to turn ideas into full-fledged applications. From designing robust APIs to crafting responsive UIs, I handle the entire development lifecycle. 
-                    </p>
-                     <p className="text-lg text-zinc-300 mt-4"> I'm passionate about solving real-world problems through code, following clean architecture principles, and staying updated with the latest trends in the .NET ,Java and React ecosystems. 
+                <p className="text-lg text-zinc-300"> I'm a dedicated Full Stack Developer with hands-on experience in building web applications for clients across different industries. I specialize in ASP.NET Core, React.js, and cloud-based deployment, delivering scalable and production-ready solutions.
+                </p>
+                <p className="text-lg text-zinc-300 mt-4"> Since 2023, I've been working as Full Stack Developer, collaborating with Organizations to turn ideas into full-fledged applications. From designing robust APIs to crafting responsive UIs, I handle the entire development lifecycle.
+                </p>
+                <p className="text-lg text-zinc-300 mt-4"> I'm passionate about solving real-world problems through code, following clean architecture principles, and staying updated with the latest trends in the .NET ,Java and React ecosystems.
 
-                     </p>
+                </p>
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Name</div>
@@ -185,10 +190,10 @@ export default function Portfolio() {
                     <div className="text-sm text-zinc-500">Email</div>
                     <div className="font-medium">sahilnawab.india@gmail.com</div>
                   </div>
-                  <div className="space-y-1">
+                  {/* <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Location</div>
                     <div className="font-medium">UK/India</div>
-                  </div>
+                  </div> */}
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Availability</div>
                     <div className="font-medium text-green-500">Open to opportunities</div>
@@ -222,7 +227,7 @@ export default function Portfolio() {
             <SkillBadge name="C#" level={85} />
             <SkillBadge name="Java (Spring Boot)" level={85} />
 
-            <SkillBadge name="React.js" level={70} />
+            <SkillBadge name="React" level={70} />
             <SkillBadge name="TypeScript" level={80} />
             <SkillBadge name="JavaScript" level={80} />
             <SkillBadge name="SQL Server" level={60} />
@@ -267,7 +272,7 @@ export default function Portfolio() {
               repoUrl="https://github.com/sahilnawab"
             />
 
- <ProjectCard
+            <ProjectCard
               title="NSS Web Solutions"
               description="NSS Web Solutions, a comprehensive platform for managing web development projects and landing page for clients."
               tags={["Next.js", "Landing Page", "UI/UX",]}
@@ -283,7 +288,7 @@ export default function Portfolio() {
 
 
 
- <ProjectCard
+            <ProjectCard
               title="Smash Bros Burger Shop"
               description="Developed Smash Bros Burger App, a modern web application for a burger shop featuring a landing page, interactive menu, and seamless food ordering via WhatsApp and online forms."
               tags={["Next.js", "Whatsapp Messaging", "UI/UX",]}
@@ -421,7 +426,7 @@ export default function Portfolio() {
                     <div className="font-medium">github.com/sahilnawab</div>
                   </div>
                 </div>
-                <div className="flex items-center gap-4">
+                {/* <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
                     <Phone className="h-5 w-5 text-purple-400" />
                   </div>
@@ -429,7 +434,7 @@ export default function Portfolio() {
                     <div className="text-sm text-zinc-500">Phone (UK)</div>
                     <div className="font-medium">+44 7459 555328</div>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
                     <Phone className="h-5 w-5 text-purple-400" />
